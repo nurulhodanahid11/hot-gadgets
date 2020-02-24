@@ -1,0 +1,67 @@
+body {
+        font-family: 'Poppins', sans-serif;
+    }
+.side-position{
+    margin: 0 20px;
+}
+.buy-now-b{
+    background-color: #413939;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: oldlace;
+}
+.container{
+    margin-bottom: 80px;
+}
+.logo-image{
+    width: 105px;
+}
+.carousel-indicators li {
+    height: 8px;
+    width: 10px;
+    background-color: #252525;
+}
+.carousel-indicators li.active{
+    height: 9px;
+    width: 27px;
+    background-color: #eea010;
+}
+.card {
+    border: none;
+    padding: 20px 20px;
+        box-shadow: 5px 5px 10px #d8c2c2fd;
+}
+.anchor-color{
+    color: rgb(204, 170, 107);
+}
+.center-cat{
+    display: inline-block;
+    position:relative;
+    left: 270%
+    
+}
+.center-cat::after{
+    content:'';
+    height:10px;
+    width:40%;
+    background: #f1cf0e;
+    position: absolute;
+    left:30%;
+    bottom: -12px;
+    border-radius: 5px;
+    
+}
+.category-beauty{
+    margin-bottom: 50px;
+}
+footer{
+    text-align: center;
+    color: grey;
+}
+.footer-gap{
+    margin-bottom: 160px;
+}
+.bg-images{
+    background-image: url(biography-bg.png);
+    border-image-width: 100%;
+}
